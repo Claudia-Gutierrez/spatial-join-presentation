@@ -63,7 +63,7 @@ Source: TfGM Metrolink Network Map
 
 - Combines attributes from one spatial dataset with another  
 
-- **Key feature:**  Based on **location**, not a shared data (e.g. ID, name)
+- **Key feature:**  Based on **location**, not shared data 
 
 .pull-left[
 - For example:  
@@ -414,7 +414,7 @@ class: middle, center
 
 <div class="footer">
 Access the slides, data and code 
-<a href="https://r-spatial.github.io/sf/reference/st_join.html" target="_blank">here</a> 
+<a href="https://github.com/Claudia-Gutierrez/spatial-join-presentation.git" target="_blank">here</a> 
 </div>
 
 
