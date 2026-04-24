@@ -1,8 +1,8 @@
 # Spatial Join slides
 
-This repository contains an overview of the **spatial joins**, developed using R Markdown and xaringan.
+This repository contains short presentationan on **Spatial joins**, developed using R Markdown and xaringan.
 
-The presentation demonstrates how spatial joins can be used to answer planning questions using tram stop data from Greater Manchester.
+The slides give an overview on how spatial joins can be used to answer spatial planning questions. Here it is demonstrated using tram stop data from Greater Manchester.
 
 ---
 
@@ -10,7 +10,7 @@ The presentation demonstrates how spatial joins can be used to answer planning q
 
 - Explain what a spatial join is  
 - Demonstrate the spatial join process
-- - Apply the method to a real-world example  
+- Apply the method to a real-world example  
 - Show equivalent workflows in **R (sf)** and **Python (GeoPandas)**  
 
 ---
@@ -37,4 +37,6 @@ geodata/              # spatial data used in the example
 ```
 ---
 ## License 
-This project is for educational purposes.
+This respository is for educational purposes.
+Please cite: 
+Claudia Gutierrez-Arellano (2026) Spatial joins. Available at: 
