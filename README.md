@@ -31,8 +31,7 @@ Raw geospatial data is not included in this repository. Please refer to the sour
 
 ```text
 Spatial_join.Rmd      # Source slide deck
-Spatial_join.html     # Rendered presentation
-style.css             # Custom styling
+index.html     # Rendered presentation
 images/               # Figures used in slides
 geodata/              # spatial data used in the example
 ```
