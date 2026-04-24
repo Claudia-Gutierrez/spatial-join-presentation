@@ -1,0 +1,4 @@
+"0","borough_counts = stops_in_borough %>%"
+"0","  st_drop_geometry() %>%"
+"0","  count(LAD22NM, name = ""n_stops"")%>%"
+"0","  arrange(-n_stops)"

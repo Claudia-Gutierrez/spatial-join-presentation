@@ -1,0 +1,40 @@
+"0","reticulate::py_install(""geopandas"")"
+"2","G3;  File ""<string>"", line 1
+    reticulate::py_install(""geopandas"")
+               ^
+SyntaxError: invalid syntax
+g"
+"0","import geopandas as gpd"
+"2","G3;Traceback (most recent call last):
+  File ""<string>"", line 1, in <module>
+  File ""[90m]8;line = 122;file://C:\Users\cgra\AppData\Local\R\win-library\4.5\reticulate\python\rpytools\loader.pyC:\Users\cgra\AppData\Local\R\win-library\4.5\reticulate\python\rpytools\loader.py]8;;[39m"", line 122, in _find_and_load_hook
+    return _run_hook(name, _hook)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File ""[90m]8;line = 96;file://C:\Users\cgra\AppData\Local\R\win-library\4.5\reticulate\python\rpytools\loader.pyC:\Users\cgra\AppData\Local\R\win-library\4.5\reticulate\python\rpytools\loader.py]8;;[39m"", line 96, in _run_hook
+    module = hook()
+             ^^^^^^
+  File ""[90m]8;line = 120;file://C:\Users\cgra\AppData\Local\R\win-library\4.5\reticulate\python\rpytools\loader.pyC:\Users\cgra\AppData\Local\R\win-library\4.5\reticulate\python\rpytools\loader.py]8;;[39m"", line 120, in _hook
+    return _find_and_load(name, import_)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'geopandas'
+g"
+"0","stops_in_borough = gpd.sjoin("
+"0","    stops,"
+"0","    boroughs,"
+"0","    how=""inner"","
+"0","    predicate=""within"""
+"0",")"
+"2","G3;Traceback (most recent call last):
+  File ""<string>"", line 1, in <module>
+NameError: name 'gpd' is not defined
+g"
+"0","borough_counts = ("
+"0","    stops_in_borough"
+"0","    .groupby(""LAD22NM"")"
+"0","    .size()"
+"0","    .reset_index(name=""n_stops"")"
+"0",")"
+"2","G3;Traceback (most recent call last):
+  File ""<string>"", line 2, in <module>
+NameError: name 'stops_in_borough' is not defined
+g"
