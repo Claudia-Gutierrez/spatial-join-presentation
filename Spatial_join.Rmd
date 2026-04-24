@@ -383,7 +383,7 @@ class: middle
 
 ## Summary
 
-- A spatial join links datasets using **location**, not IDs  
+- A spatial join links datasets using **location**  
 
 - It follows a **process**: inputs > spatial rule > output  
    
