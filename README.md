@@ -1,4 +1,4 @@
-# Spatial Join slides
+# Spatial Join
 
 This repository contains a short presentation on **Spatial joins**, developed using R Markdown and xaringan, some example code to perform spatial joins in R and python. 
 
