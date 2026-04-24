@@ -11,6 +11,11 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      
+knit: >
+  (function(input, encoding) {
+    rmarkdown::render(input, encoding = encoding, output_file = "index.html")
+  })
 ---
 
 ```{r setup, include=FALSE}
