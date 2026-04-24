@@ -2,7 +2,7 @@
 
 This repository contains a short presentation on **Spatial joins**, developed using R Markdown and xaringan, some example code to perform spatial joins in R and python. 
 
-The [slides](https://claudia-gutierrez.github.io/spatial-join-presentation/) give an overview on how spatial joins can be used to answer spatial planning questions. Here it is demonstrated using tram stop data from Greater Manchester.
+The [slides](https://claudia-gutierrez.github.io/spatial-join-presentation/) give an overview on how spatial joins can be used to answer spatial planning questions. Here it is demonstrated using tram stop data from the Greater Manchester Metrolink Network.
 
 ---
 
