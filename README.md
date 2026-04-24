@@ -35,8 +35,3 @@ style.css             # Custom styling
 images/               # Figures used in slides
 geodata/              # spatial data used in the example
 ```
----
-## License 
-This respository is for educational purposes.
-Please cite: 
-Claudia Gutierrez-Arellano (2026) Spatial joins. Available at: 
