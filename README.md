@@ -17,11 +17,13 @@ The presentation demonstrates how spatial joins can be used to answer planning q
 
 ## Data
 - **GM Metrolink stops** (points)  
-- **Local Authority District boundaries** (polygons)  
-Sources:
-- data.gov.uk  
-- ONS Geography  
+- **Local Authority District boundaries** (polygons)
 
+Sources:
+- [data.gov.uk](https://www.data.gov.uk/dataset/55576216-cd1d-4e2b-adcf-c87c07473373/gm-metrolink-network)
+- [ONS Geography](https://geoportal.statistics.gov.uk/documents/ons::local-authority-districts-counties-and-unitary-authorities-december-2022-map-in-the-uk/about?path=)
+
+Note: Raw geospatial data is not included in this repository. Please refer to the sources above to download the original datasets.
 ---
 
 ## Repository structure
@@ -32,3 +34,7 @@ Spatial_join.html     # Rendered presentation
 style.css             # Custom styling
 images/               # Figures used in slides
 geodata/              # spatial data used in the example
+```
+---
+## License 
+This project is for educational purposes.
