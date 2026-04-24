@@ -367,9 +367,9 @@ not_served = (
 | Spatial relationship | R (sf) | Python (GeoPandas) | Example |
 |---------------------|--------|--------------------|---------|
 | point within polygon | `join = st_within` | `predicate="within"` | Which schools are located within flood risk zones? |
-| features overlap | `join = st_intersects` | `predicate="intersects"` | Which parks overlap flood zones? |
+| features overlap | `join = st_intersects` | `predicate="intersects"` | Which green spaces overlap proposed development zones? |
 | boundaries touch | `join = st_touches` | `predicate="touches"` | Which protected areas border urban areas? |
-| nearest feature* | `st_nearest_feature` | `sjoin_nearest()` | Which hospital is closest to each area? |
+| nearest feature* | `st_nearest_feature` | `sjoin_nearest()` | Which hospital is closest to a sports facility? |
 
 <div class="footer">
 Explore: 
