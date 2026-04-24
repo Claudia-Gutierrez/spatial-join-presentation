@@ -23,7 +23,8 @@ Sources:
 - [data.gov.uk](https://www.data.gov.uk/dataset/55576216-cd1d-4e2b-adcf-c87c07473373/gm-metrolink-network)
 - [ONS Geography](https://geoportal.statistics.gov.uk/documents/ons::local-authority-districts-counties-and-unitary-authorities-december-2022-map-in-the-uk/about?path=)
 
-Note: Raw geospatial data is not included in this repository. Please refer to the sources above to download the original datasets.
+Raw geospatial data is not included in this repository. Please refer to the sources above to download the original datasets.
+
 ---
 
 ## Repository structure
@@ -35,3 +36,6 @@ style.css             # Custom styling
 images/               # Figures used in slides
 geodata/              # spatial data used in the example
 ```
+## License
+This work is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) License.
+https://creativecommons.org/licenses/by/4.0/
