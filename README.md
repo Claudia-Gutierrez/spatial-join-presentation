@@ -27,7 +27,7 @@ Raw geospatial data is not included in this repository. Please refer to the sour
 
 ---
 
-## Repository structure
+## Relevant files
 
 ```text
 Spatial_join.Rmd      # Source slide deck
