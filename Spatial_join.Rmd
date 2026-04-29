@@ -125,7 +125,7 @@ Source: Open Street Map, ONS Combined Authorities, TfGM
 - For each tram stop, identify the borough it falls **within**
 
 ## Output
-- Stops in borough as **points**  
+- 'Stops in borough' as **points**  
   Each tram stop inherits the attributes of a polygon
   
 ---
