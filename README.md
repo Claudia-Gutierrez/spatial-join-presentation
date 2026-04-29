@@ -30,11 +30,10 @@ Raw geospatial data is not included in this repository. Please refer to the sour
 ## Relevant files
 
 ```text
-Spatial_join.Rmd      # Source slide deck with R code for the tramp stops example
-images/               # Figures used in slides
-geodata/              # spatial data used in the example
-py/                   # Python code and notebook for the tramp stops example
 Spatial_join.pdf      # Slides PDF
+geodata/              # spatial data used in the example
+Spatial_join.Rmd      # Source slide deck with R code for the tramp stops example
+py/                   # Python code and notebook for the tramp stops example
 ```
 ## License
 This work is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) License.
